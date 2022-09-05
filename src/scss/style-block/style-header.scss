@@ -20,6 +20,7 @@
   
   .header__main {
     width: $center-colomn-width;
+    background-color: $main-color-5;
   }
   
   .header__right {
@@ -31,16 +32,21 @@
     font-weight: 700;
     text-align: left;
     //text-transform: uppercase;
-    color: $main-color-5;
+    color: $main-color-1;
     font-size: $font-size5;
+    margin-left: 10px;
+    margin-top: $margin-top2;
   }
   
   .header__h2 {
     font-family: $Font5;
     font-weight: 700;
     text-align: left;
-    color: $main-color-5;
+    color: $main-color-1;
     font-size: $font-size5;
+    margin-left: 10px;
+    //margin-bottom: $margin-bottom1;
+    // padding-bottom: 0;
   }
   
   
