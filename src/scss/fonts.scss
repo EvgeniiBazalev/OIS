@@ -1,8 +1,24 @@
 @font-face {
+                font-family: Architectural;
+                font-display: swap;
+                src: url("../fonts/Architectural.woff2") format("woff2"),
+                    url("../fonts/Architectural.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
                 font-family: CATStack;
                 font-display: swap;
                 src: url("../fonts/CATStack.woff2") format("woff2"),
                     url("../fonts/CATStack.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: English Rose;
+                font-display: swap;
+                src: url("../fonts/English Rose-Regular.woff2") format("woff2"),
+                    url("../fonts/English Rose-Regular.woff") format("woff");
                 font-weight: 400;
                 font-style: normal;
               }
@@ -15,156 +31,12 @@
                 font-style: normal;
               }
 @font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Bold-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Bold-Italic.woff") format("woff");
-                font-weight: 700;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-ExtraLight-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-ExtraLight-Italic.woff") format("woff");
-                font-weight: 200;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Bold.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Bold.woff") format("woff");
-                font-weight: 700;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-ExtraLight.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-ExtraLight.woff") format("woff");
-                font-weight: 200;
-                font-style: normal;
-              }
-@font-face {
-                font-family: English Rose;
-                font-display: swap;
-                src: url("../fonts/English Rose-Regular.woff2") format("woff2"),
-                    url("../fonts/English Rose-Regular.woff") format("woff");
-                font-weight: 400;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Medium-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Medium-Italic.woff") format("woff");
-                font-weight: 500;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Light.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Light.woff") format("woff");
-                font-weight: 300;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Light-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Light-Italic.woff") format("woff");
-                font-weight: 300;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Medium.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Medium.woff") format("woff");
-                font-weight: 500;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Regular-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Regular-Italic.woff") format("woff");
-                font-weight: 400;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Regular.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Regular.woff") format("woff");
-                font-weight: 400;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-SemiBold-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-SemiBold-Italic.woff") format("woff");
-                font-weight: 600;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-SemiBold.woff") format("woff");
-                font-weight: 600;
-                font-style: normal;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Thin-Italic.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Thin-Italic.woff") format("woff");
-                font-weight: 100;
-                font-style: italic;
-              }
-@font-face {
-                font-family: IBMPlexSans;
-                font-display: swap;
-                src: url("../fonts/IBMPlexSans-Thin.woff2") format("woff2"),
-                    url("../fonts/IBMPlexSans-Thin.woff") format("woff");
-                font-weight: 100;
-                font-style: normal;
-              }
-@font-face {
-                font-family: NK841ORT;
-                font-display: swap;
-                src: url("../fonts/NK841ORT-Regular.woff2") format("woff2"),
-                    url("../fonts/NK841ORT-Regular.woff") format("woff");
-                font-weight: 400;
-                font-style: normal;
-              }
-@font-face {
-                font-family: Pushster;
-                font-display: swap;
-                src: url("../fonts/Pushster-Regular.woff2") format("woff2"),
-                    url("../fonts/Pushster-Regular.woff") format("woff");
-                font-weight: 400;
-                font-style: normal;
-              }
-@font-face {
                 font-family: RobotoCondensed;
                 font-display: swap;
                 src: url("../fonts/RobotoCondensed-Bold-Italic.woff2") format("woff2"),
                     url("../fonts/RobotoCondensed-Bold-Italic.woff") format("woff");
                 font-weight: 700;
                 font-style: italic;
-              }
-@font-face {
-                font-family: RobotoCondensed;
-                font-display: swap;
-                src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"),
-                    url("../fonts/RobotoCondensed-Bold.woff") format("woff");
-                font-weight: 700;
-                font-style: normal;
               }
 @font-face {
                 font-family: RobotoCondensed;
@@ -185,10 +57,10 @@
 @font-face {
                 font-family: RobotoCondensed;
                 font-display: swap;
-                src: url("../fonts/RobotoCondensed-Regular-Italic.woff2") format("woff2"),
-                    url("../fonts/RobotoCondensed-Regular-Italic.woff") format("woff");
-                font-weight: 400;
-                font-style: italic;
+                src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"),
+                    url("../fonts/RobotoCondensed-Bold.woff") format("woff");
+                font-weight: 700;
+                font-style: normal;
               }
 @font-face {
                 font-family: RobotoCondensed;
@@ -197,4 +69,12 @@
                     url("../fonts/RobotoCondensed-Regular.woff") format("woff");
                 font-weight: 400;
                 font-style: normal;
+              }
+@font-face {
+                font-family: RobotoCondensed;
+                font-display: swap;
+                src: url("../fonts/RobotoCondensed-Regular-Italic.woff2") format("woff2"),
+                    url("../fonts/RobotoCondensed-Regular-Italic.woff") format("woff");
+                font-weight: 400;
+                font-style: italic;
               }
