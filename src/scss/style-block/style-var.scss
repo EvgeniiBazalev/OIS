@@ -1,0 +1,79 @@
+//Ширина основного divcontainer
+$max-width-divcontainer: 1920px;
+$min-width-divcontainer: 640px;
+$width-divcontainer: 100%;
+
+//Ширина колонок сайта
+$right-colomn-width: 10%;
+$left-colomn-width: 10%;
+$center-colomn-width: 100% - $right-colomn-width - $left-colomn-width;
+
+//ширина внутреннего содержимого колонок
+$internal-width: 95%;
+
+
+//Цвета
+$main-color-5: #313131;
+$main-color-4: #0061fe;
+$main-color-3:#b3b3b3b7;
+$main-color-2:#f7f5f2;
+$main-color-1:#fff;
+
+//Шрифт ClearSans Bold
+$Font6: Caveat Regular;
+
+$Font1: RobotoCondensed;
+$Font2: English Rose;
+$Font5: IBMPlexSans;
+$Font4: NK841ORT;
+$Font3: CATStack;
+
+//Размеры шрифта
+$font-size1: 1em;
+$font-size2: 2em;
+$font-size2-5: 2.5em;
+$font-size3: 3em;
+
+//Основной внешний отступ по верху
+$margin-top1: 10px;
+$margin-top2: 20px;
+$margin-top3: 30px;
+$margin-top4: 40px;
+$margin-top5: 50px;
+$margin-top10: 100px;
+
+//Основной внешний отступ по низу
+$margin-bottom1: 10px;
+$margin-bottom2: 20px;
+$margin-bottom3: 30px;
+$margin-bottom4: 40px;
+$margin-bottom5: 50px;
+$margin-bottom10: 100px;
+
+//Основной внутренний отступ по верху
+
+$padding-bottom1: 10px;
+$padding-bottom2: 20px;
+$padding-bottom3: 30px;
+$padding-bottom4: 40px;
+
+
+//Основной отступ по всем сторонам
+
+$margin-all1: 5px;
+$margin-all2: 10px;
+
+//Основная тень
+$box-shadow1: 0 -1px 1px #d1d1d1;
+
+//Скругление краев
+$border-radius1: 12px;
+
+//transition по умолчнию
+$transition-default: 0.18s linear;
+
+
+
+
+
+

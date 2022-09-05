@@ -1,0 +1,32 @@
+@use 'style-block/style-var';
+
+@import 'fonts';
+@import 'style-block/style-nav';
+@import 'style-block/style-header';
+@import 'style-block/style-main';
+
+
+/* !Global start =*/
+
+/* Зануление всех margin, padding, border*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Размеры блоков не изменяются в зависимости от border, padding */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+
+}
+
+a {
+text-decoration: none;
+}
+/* !Global finish =*/
+
+
+

@@ -1,0 +1,47 @@
+@import 'style-var';
+
+/* !header start =*/
+
+.header__divcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: $width-divcontainer;
+    max-width: $max-width-divcontainer;
+    min-width: $min-width-divcontainer;
+
+    margin-top: $margin-top1;
+  }
+  
+  .header__left {
+    width: $left-colomn-width;
+  }
+  
+  .header__main {
+    width: $center-colomn-width;
+  }
+  
+  .header__right {
+    width: $right-colomn-width;
+  }
+  
+  .header__h1 {
+    font-family: $Font3;
+    font-weight: 400;
+    text-align: left;
+    //text-transform: uppercase;
+    color: $main-color-5;
+    font-size: $font-size2-5;
+  }
+  
+  .header__h2 {
+    font-family: $Font3;
+    font-weight: 400;
+    text-align: left;
+    color: $main-color-5;
+    font-size: $font-size2-5;
+  }
+  
+  
+  /* !header finish =*/

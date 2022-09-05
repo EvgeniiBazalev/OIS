@@ -1,0 +1,61 @@
+@import 'style-var';
+
+/* !nav start =*/
+
+
+.nav {
+  margin-top: $margin-top2;
+}
+
+.nav__divcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: $width-divcontainer;
+  max-width: $max-width-divcontainer;
+  min-width: $min-width-divcontainer;
+}
+
+.nav__left {
+  width: $left-colomn-width;
+}
+
+.nav__main {
+  width: $center-colomn-width;
+  box-shadow: $box-shadow1;
+}
+
+.nav__right {
+  width: $right-colomn-width;
+}
+
+
+.nav__ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: $main-color-5;
+}
+
+.nav__link {
+
+  display: block;
+  color: $main-color-1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: $Font1;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nav__link:hover {
+  background-color: $main-color-4;
+  transition: $transition-default;
+}
+
+.nav__li {
+  float: left;
+}
+
+/* !nav finish =*/
