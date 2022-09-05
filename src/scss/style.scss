@@ -66,26 +66,26 @@ a {
 
   .center__header-text 
   {
-    font-family: $Font3;
-    font-weight: 400;
+    font-family: $Font5;
+    font-weight: 700;
     text-align: center;
-    font-size: $font-size2;
+    font-size: $font-size4;
 
     margin-top: $margin-top1;   
   }
 
   .header__h1 {
-    font-family: $Font3;
+    font-family: $Font5;
     font-weight: 400;
     text-align: center;
-    font-size: $font-size2;
+    font-size: $font-size4;
   }
   
   .header__h2 {
-    font-family: $Font3;
+    font-family: $Font5;
     font-weight: 400;
     text-align: center;
-    font-size: $font-size2;
+    font-size: $font-size4;
   }
 
   .center__left_header {
@@ -102,7 +102,8 @@ a {
     height: 70px;    
     
     font-size: $font-size1;
-    font-family: $Font3;
+    font-weight: 400;
+    font-family: $Font1;
         
     margin-bottom: $margin-bottom1;
   }
@@ -110,7 +111,7 @@ a {
   .nav__link {
 
     font-family: $Font1;
-    font-size: $font-size2;    
+    font-size: $font-size1-5;    
   }
 
 }
@@ -133,6 +134,8 @@ a {
       font-weight: 400;
       text-align: center;
       font-size: $font-size2;
+
+      margin-top: 0;
     }
     
     .header__h2 {
@@ -144,12 +147,12 @@ a {
   
   
     .center__left_header {
-      height: 130px;
+      height: 230px;
        
     }
   
     .center__right_header {
-      height: 130px;
+      height: 230px;
     }
   
     .center__link 
