@@ -24,9 +24,161 @@
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
+
 /* !Global finish =*/
 
 
 
+/* !Media start */
+
+
+@media (max-width: 1281px) {
+
+  .nav__left,
+  .nav__right,
+  .header__left,
+  .header__right,
+  .divcontainer__left,
+  .divcontainer__right
+  {
+    display: none;
+  }
+
+  .center,
+  .nav__main,
+  .header__main
+  {
+    width: $width-divcontainer;
+  }
+  
+}
+
+
+@media (max-width: 1081px) {
+
+ 
+  .center__container 
+  {
+    flex-wrap: wrap;
+  }
+
+  .center__header-text 
+  {
+    font-family: $Font3;
+    font-weight: 400;
+    text-align: center;
+    font-size: $font-size2;
+
+    margin-top: $margin-top1;   
+  }
+
+  .header__h1 {
+    font-family: $Font3;
+    font-weight: 400;
+    text-align: center;
+    font-size: $font-size2;
+  }
+  
+  .header__h2 {
+    font-family: $Font3;
+    font-weight: 400;
+    text-align: center;
+    font-size: $font-size2;
+  }
+
+  .center__left_header {
+   height: 150px;    
+  }
+
+  .center__right_header {
+   height: 150px;
+  }
+
+  .center__link 
+  {
+    max-width: 250px;
+    height: 70px;    
+    
+    font-size: $font-size1;
+    font-family: $Font3;
+        
+    margin-bottom: $margin-bottom1;
+  }
+
+  .nav__link {
+
+    font-family: $Font1;
+    font-size: $font-size2;    
+  }
+
+}
+
+  @media (max-width: 640px) {
+
+     
+    .center__header-text 
+    {
+      font-family: $Font1;
+      font-weight: 400;
+      text-align: center;
+          
+      font-size: $font-size2;
+      margin-top: $margin-top1;   
+    }
+  
+    .header__h1 {
+      font-family: $Font1;
+      font-weight: 400;
+      text-align: center;
+      font-size: $font-size2;
+    }
+    
+    .header__h2 {
+      font-family: $Font1;
+      font-weight: 400;
+      text-align: center;
+      font-size: $font-size2;
+    }
+  
+  
+    .center__left_header {
+      height: 130px;
+       
+    }
+  
+    .center__right_header {
+      height: 130px;
+    }
+  
+    .center__link 
+    {         
+      font-size: $font-size1;
+      font-family: $Font1;
+      font-weight: 400;
+      font-style: normal;
+  
+      margin-bottom: $margin-bottom1;  
+    }
+
+    .nav__link {
+
+      display: block;
+      color: $main-color-1;
+      text-align: center;
+      padding: 5px 5px;
+      font-family: $Font1;
+      font-size: 1.4em;
+      font-weight: 300;
+      font-style: normal;
+      
+    }
+
+    .nav__li{
+      outline: 2px solid $main-color-1;
+    }
+
+}
+
+/* !Media finish */
