@@ -7,26 +7,26 @@
                 font-style: normal;
               }
 @font-face {
-                font-family: CATStack;
+                font-family: a_Latino;
                 font-display: swap;
-                src: url("../fonts/CATStack.woff2") format("woff2"),
-                    url("../fonts/CATStack.woff") format("woff");
+                src: url("../fonts/a_Latino-Regular-Italic.woff2") format("woff2"),
+                    url("../fonts/a_Latino-Regular-Italic.woff") format("woff");
                 font-weight: 400;
-                font-style: normal;
-              }
-@font-face {
-                font-family: English Rose;
-                font-display: swap;
-                src: url("../fonts/English Rose-Regular.woff2") format("woff2"),
-                    url("../fonts/English Rose-Regular.woff") format("woff");
-                font-weight: 400;
-                font-style: normal;
+                font-style: italic;
               }
 @font-face {
                 font-family: Caveat Regular;
                 font-display: swap;
                 src: url("../fonts/Caveat Regular.woff2") format("woff2"),
                     url("../fonts/Caveat Regular.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: CATStack;
+                font-display: swap;
+                src: url("../fonts/CATStack.woff2") format("woff2"),
+                    url("../fonts/CATStack.woff") format("woff");
                 font-weight: 400;
                 font-style: normal;
               }
@@ -39,19 +39,11 @@
                 font-style: italic;
               }
 @font-face {
-                font-family: RobotoCondensed;
+                font-family: a_Latino;
                 font-display: swap;
-                src: url("../fonts/RobotoCondensed-Light-Italic.woff2") format("woff2"),
-                    url("../fonts/RobotoCondensed-Light-Italic.woff") format("woff");
-                font-weight: 300;
-                font-style: italic;
-              }
-@font-face {
-                font-family: RobotoCondensed;
-                font-display: swap;
-                src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2"),
-                    url("../fonts/RobotoCondensed-Light.woff") format("woff");
-                font-weight: 300;
+                src: url("../fonts/a_Latino-Regular.woff2") format("woff2"),
+                    url("../fonts/a_Latino-Regular.woff") format("woff");
+                font-weight: 400;
                 font-style: normal;
               }
 @font-face {
@@ -63,11 +55,35 @@
                 font-style: normal;
               }
 @font-face {
+                font-family: English Rose;
+                font-display: swap;
+                src: url("../fonts/English Rose-Regular.woff2") format("woff2"),
+                    url("../fonts/English Rose-Regular.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: RobotoCondensed;
+                font-display: swap;
+                src: url("../fonts/RobotoCondensed-Light-Italic.woff2") format("woff2"),
+                    url("../fonts/RobotoCondensed-Light-Italic.woff") format("woff");
+                font-weight: 300;
+                font-style: italic;
+              }
+@font-face {
                 font-family: RobotoCondensed;
                 font-display: swap;
                 src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
                     url("../fonts/RobotoCondensed-Regular.woff") format("woff");
                 font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: RobotoCondensed;
+                font-display: swap;
+                src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2"),
+                    url("../fonts/RobotoCondensed-Light.woff") format("woff");
+                font-weight: 300;
                 font-style: normal;
               }
 @font-face {
