@@ -4,6 +4,7 @@
 @import 'style-block/style-nav';
 @import 'style-block/style-header';
 @import 'style-block/style-main';
+@import 'style-block/style-footer';
 
 
 /* !Global start =*/
@@ -28,6 +29,26 @@ a {
 }
 
 /* !Global finish =*/
+
+
+
+/* !Global blocks start=*/
+
+.term {
+  float: left;
+  clear: left;
+  margin-right: 5px;
+}
+
+.term::after {
+  content: ":";
+}
+
+.definition {
+  
+}
+
+/* !Global blocks finish=*/
 
 
 

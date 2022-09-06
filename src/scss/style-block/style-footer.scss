@@ -1,0 +1,65 @@
+@import 'style-var';
+
+/* !footer start =*/
+
+.footer__divcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    width: $width-divcontainer;
+    max-width: $max-width-divcontainer;
+    min-width: $min-width-divcontainer;
+
+    //margin-top: $margin-top1;
+}
+
+.footer__left {
+    width: $left-colomn-width;    
+}
+
+.footer__LeftContent {
+    margin: auto;
+    //margin-top: $margin-top2;
+
+    background: $main-color-5;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer__main {
+    width: $center-colomn-width;
+    background-color: $main-color-5;
+}
+
+.footer__right {
+    width: $right-colomn-width;      
+}
+
+.footer__RightContent {
+    margin: auto;
+    //margin-top: $margin-top2;
+
+    background: $main-color-5;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer__p {
+    font-family: $Font1;
+    font-weight: 400;
+    text-align: left;
+    //text-transform: uppercase;
+    color: $main-color-1;
+    font-size: $font-size0-9;
+    margin-left: 10px;
+    margin-top: $margin-top2;
+    margin-bottom: $margin-bottom2;
+}
+
+
+/* !footer finish =*/
