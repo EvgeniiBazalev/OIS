@@ -200,6 +200,8 @@ margin-top: $margin-top2;
 
     margin-bottom: $margin-bottom2;
     margin-top: $margin-top2;
+
+    //width: 30%;
 }
 
 .block__HeaderText {
@@ -208,12 +210,13 @@ margin-top: $margin-top2;
     font-size: $font-size2-5;
     color: $main-color-4;
     text-align: right;
-    max-width: 60%;
-    //overflow: hidden;
-
-    //flex-shrink: 1;
-       
+    max-width: 65%;           
 }
+
+
+// .block___HeaderCentr {
+//     width: 5%;
+// }
 
 .block__text {
     font-family: $Font1;
