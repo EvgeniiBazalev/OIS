@@ -208,7 +208,11 @@ margin-top: $margin-top2;
     font-size: $font-size2-5;
     color: $main-color-4;
     text-align: right;
-    max-width: 75%;
+    max-width: 60%;
+    //overflow: hidden;
+
+    //flex-shrink: 1;
+       
 }
 
 .block__text {
@@ -219,8 +223,22 @@ margin-top: $margin-top2;
 
     text-align: justify;
 
-    margin-top: $margin-top3;
+    margin-top: $margin-top1;
+
+    //min-height: 133px;
 }
+
+.term {
+display: inline;
+}
+
+.definition {
+    display: inline;
+}
+
+.term::after { /* двоеточие в конце <dt> */ 
+    content: ':';
+  }
 
 .block__footer {
     width: 100%;

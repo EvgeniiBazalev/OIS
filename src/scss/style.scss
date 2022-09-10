@@ -10,6 +10,7 @@
 /* !Global start =*/
 
 /* Зануление всех margin, padding, border*/
+/* Зануление всех margin, padding, border*/
 * {
   margin: 0;
   padding: 0;
@@ -28,25 +29,6 @@ a {
   text-decoration: none;
 }
 
-/* !Global finish =*/
-
-
-
-/* !Global blocks start=*/
-
-.term {
-  float: left;
-  clear: left;
-  margin-right: 5px;
-}
-
-.term::after {
-  content: ":";
-}
-
-.definition {
-  
-}
 
 /* !Global blocks finish=*/
 
