@@ -169,6 +169,7 @@ margin-top: $margin-top2;
 .block {
     width: 90%;
     height: auto;
+    min-height: 380px;
     margin-left: auto;
     margin-right: auto;
 
@@ -179,11 +180,17 @@ margin-top: $margin-top2;
     background-color: $main-color-1;
 }
 
+.block:hover {
+    background-color: $main-color-2;
+    transition: $transition-default;
+
+}
+
 .block__header {
     width: 100%;
     height: auto;
 
-    background-color: $main-color-1;
+    background-color: inherit;
     border-bottom: 7px solid $main-color-4;
     
     display: flex;
@@ -247,7 +254,7 @@ display: inline;
     width: 100%;
     height: auto;
 
-    background-color: $main-color-1;
+    background-color: inherit;
         
     display: flex;
     align-items: center;
