@@ -49,5 +49,21 @@
     // padding-bottom: 0;
   }
   
-  
+  .header__h3 {
+    font-family: $Font5;
+    font-weight: 700;
+    text-align: center;
+    color: $main-color-1;
+    font-size: $font-size5;
+    
+    background-color: $main-color-5;
+    width: 100%;
+    padding-top: 15px;
+    //max-width: 100%;
+    //min-width: 60%;
+
+    margin-top: $margin-top1;
+    
+  }
+ 
   /* !header finish =*/
