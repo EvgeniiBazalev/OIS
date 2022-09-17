@@ -1,7 +1,62 @@
-.TermDefinition {
+.TermDefinitionContainer {
     margin-top: $margin-top1;
     border: 7px solid $main-color-4;
     border-radius: $border-radius1;
+    width: 100%;
+}
+
+.TermDefinitionBlock {
+    margin: $margin2;
+}
+
+.TermDefinition {
+    //color: $main-color-5;
+    font-size: $font-size1-5;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: $margin-top1;
+}
+    
+
+.TermDefinitionDl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 30px;
+}
 
 
+
+.termlvl2 {
+    font-weight: 700;
+    grid-column-start: 1;
+    // max-width: 300px;
+ }
+
+.termlvl2::after { /* двоеточие в конце <dt> */ 
+    content: ':';
+  }
+
+.definitionlvl2 {
+    font-style: italic;
+    grid-column-start: 2;
+    text-align: justify;
+    text-align-last: left;
+}
+
+
+.textPageLvl2 {
+    margin: $margin2;
+    font-size: $font-size1-5;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 3em;
+}
+
+.textPageLvl2 p:not(:first-child)  {
+    margin-top: $margin-top1;    
 }

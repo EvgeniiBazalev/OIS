@@ -2,7 +2,54 @@
     width: 100%;
     height: 300px;
 
-    background-image: url("../../images/01Invention/type1.jpeg");
+    background-image: url("../../images/01Invention/type1.jpg");
     background-size: cover;
     background-position: 100% 50%;
+}
+
+.img__inTextType1 {
+    width: 400px;
+    height: auto;
+
+    border-radius: $border-radius1;
+
+    float: right;
+
+    margin: $margin2;
+    margin-bottom: 0;
+    margin-right: 0;
+
+
+
+    background-image: linear-gradient(rgba(255, 255, 255, .6), rgba(0, 0, 0, .6)), url("../../images/01Invention/inTextType1.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.img__inTextType1 p {
+
+    margin: $margin2;
+    text-align: justify;
+    text-align-last: left;
+
+    font-size: $font-size1;
+    font-family: $Font4;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 1em;
+
+    position: relative;
+
+    color: $main-color-2;
+}
+
+.boldTextNote {
+    //font-weight: 700;
+    text-decoration: underline;
 }
