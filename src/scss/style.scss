@@ -31,7 +31,9 @@ a {
   text-decoration: none;
 }
 
-
+body {
+background-color: $main-color-2;
+}
 
 /* !Global blocks finish=*/
 
@@ -58,8 +60,22 @@ a {
   {
     width: $width-divcontainer;
   }
-  
+
+  .centerNote {
+    grid-template-columns: auto;
+    grid-gap: 5px;
+  }
+  .centerNote__sources, 
+  .centerNote__note {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: $padding-left1;
+    padding-right: $padding-right1;
+  }
 }
+
+
 
 
 @media (max-width: 1081px) {

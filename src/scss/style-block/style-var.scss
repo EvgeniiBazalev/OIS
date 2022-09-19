@@ -15,8 +15,8 @@ $internal-width: 95%;
 //Цвета
 $main-color-5: #313131;
 $main-color-4: #0061fe;
-$main-color-3:#c0c0c0;
-$main-color-2:#f7f5f2;
+$main-color-3:#b1b1b1;
+$main-color-2:#f7f7f7;
 $main-color-1:#fff;
 
 //Шрифты 
@@ -41,7 +41,12 @@ $font-size4: 4em;
 $font-size5: 5em;
 $font-size6: 6em;
 
-//Основной отступ по всем сторона
+//Основной отступ по всем сторонам 1
+
+$margin-all1: 5px;
+$margin-all2: 10px;
+
+//Основной отступ по всем сторона 2
 $margin1: 10px;
 $margin2: 20px;
 $margin3: 30px;
@@ -75,6 +80,16 @@ $margin-right5: 50px;
 $margin-right10: 100px;
 
 
+//Основной внутренний отступ по всем сторонам
+
+$padding1: 10px;
+$padding2: 20px;
+$padding3: 30px;
+$padding4: 40px;
+$padding5: 50px;
+$padding6: 100px;
+
+
 //Основной внутренний отступ по верху
 
 $padding-bottom1: 10px;
@@ -82,11 +97,22 @@ $padding-bottom2: 20px;
 $padding-bottom3: 30px;
 $padding-bottom4: 40px;
 
+//Основной внутренний отступ по левому краю
 
-//Основной отступ по всем сторонам
+$padding-left1: 10px;
+$padding-left2: 20px;
+$padding-left3: 30px;
+$padding-left4: 40px;
 
-$margin-all1: 5px;
-$margin-all2: 10px;
+//Основной внутренний отступ по правому краю
+
+$padding-right1: 10px;
+$padding-right2: 20px;
+$padding-right3: 30px;
+$padding-right4: 40px;
+
+
+
 
 //Основная тень
 $box-shadow1: 0 -1px 1px #d1d1d1;

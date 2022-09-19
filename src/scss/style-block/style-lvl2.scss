@@ -3,10 +3,12 @@
     border: 7px solid $main-color-4;
     border-radius: $border-radius1;
     width: 100%;
+    background-color: $main-color-1;
 }
 
 .TermDefinitionBlock {
     margin: $margin2;
+    background-color: $main-color-1;
 }
 
 .TermDefinition {
@@ -59,4 +61,79 @@
 
 .textPageLvl2 p:not(:first-child)  {
     margin-top: $margin-top1;    
+}
+
+.underlineTextNote {
+    //font-weight: 700;
+    text-decoration: underline;
+}
+
+.centerNote {
+
+    margin-top: $margin-top1;
+    margin-bottom: $margin-bottom1;
+
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.centerNote__sources {
+
+    justify-self: start;
+
+    font-size: $font-size1;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 1em;
+        
+    background-color: $main-color-3;
+    
+    height: 100%;
+
+    display: flex;
+
+    
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.centerNote__sources p {
+    margin-bottom: $margin-bottom1;
+}
+
+.centerNote__sources p:last-child {
+    margin-bottom: 0;
+}
+
+.centerNote__sources a {
+    font-size: $font-size1;
+    font-family: $Font1;
+    text-decoration: underline;
+    
+}
+
+.centerNote__note {
+
+    justify-self: end;
+
+    font-size: $font-size1;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 3em;
+        
+    background-color: $main-color-3;
+    height: 100%;
+
+    display: grid;
+    align-items: center;
+
+    padding: $padding1;
 }
