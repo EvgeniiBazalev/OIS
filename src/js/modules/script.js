@@ -1,40 +1,59 @@
+'use strict';
+
+
+
 // export function hiDear() {
 //     console.log('Hi Dear')
-// }
+// // }
 
-// hiDear()
+// //const { LoaderTargetPlugin } = require("webpack");
 
-// export function hiMan() {
-//     console.log('Hi Man')
-// }
+// // hiDear()
 
-// hiMan()
 
-let object = {
-    nameP: 'Evg',
-    sername: 'Bazalev',
-    age: 25,
+// let obj = {
+//     name: 'Jenia',
+//     lastname: 'Bazalev',
+//     family: {
+//         wife: 'Liza',
+//         dother1: 'Lera',
+//         dother2: 'Olka',
+//         numberOfHouse: 19
+//     }
+// };
 
-    functionX() {
-        let agex2 = object.age*2;
-        return agex2;
-    }
-}
 
-console.log(object.functionX())
+// for(var i=0; i<10; i++) {
+//     console.log(i);
+//   }
 
-let arr = [123, 158, 56, 32 , 'Vasia', 'petia']
+// // setTimeout(function() {
+// //   name = "Петя";
+// //   sayHi();
+// // }, 1000);
 
-function massminus(mas){
-    mas[0]=mas[0]-10;
-    mas[1]=mas[1]-10;
-    mas[2]=mas[2]-10;
-    mas[3]=mas[3]-10;
-    mas[4]=mas[4]-10;
-    mas[5]=mas[5]-10;
 
-}
+// let arr = [1, 2, 3];
+// arr.something = 5;
+// arr[20]=55;
 
-massminus(arr)
+// let i;
 
-console.log(arr)
+// for (i in arr) {
+//     console.log(`${i} соответсвует ${arr[i]}`);
+// };
+
+// console.log(arr.length);
+
+// let newArr = {...arr};
+// console.log(newArr);
+
+// //  alert('Privet!')
+//  alert('Privet!');
+// [1,2].forEach(alert);
+
+// let result = prompt('Введите что-нибудь', 'Уже заполнено');
+// let result = confirm("Ты тут главный");
+// alert(result);
+// let a = NaN;
+console.log(null == "\n0\n");
