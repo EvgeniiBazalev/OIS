@@ -2,39 +2,23 @@
 //     console.log('Hi Dear')
 // }
 
-// hiDear()
+const arr = [1, 3, 5, 7, 9, 11];
 
-// export function hiMan() {
-//     console.log('Hi Man')
-// }
+let secondArr = [2, 4, 6, 8, 10, 12];
+// arr[20]=25;
 
-// hiMan()
+console.log(arr.sort(compareNum));
 
-let object = {
-    nameP: 'Evg',
-    sername: 'Bazalev',
-    age: 25,
-
-    functionX() {
-        let agex2 = object.age*2;
-        return agex2;
-    }
+function compareNum (a, b) {
+    return a-b;
 }
 
-console.log(object.functionX())
+// arr[20] = 25;
 
-let arr = [123, 158, 56, 32 , 'Vasia', 'petia']
+// // for (let i=0; i<arr.length; i++) {
+// // console.log(arr[i]);
+// // }
 
-function massminus(mas){
-    mas[0]=mas[0]-10;
-    mas[1]=mas[1]-10;
-    mas[2]=mas[2]-10;
-    mas[3]=mas[3]-10;
-    mas[4]=mas[4]-10;
-    mas[5]=mas[5]-10;
-
-}
-
-massminus(arr)
-
-console.log(arr)
+// arr.forEach(function(element, i, arr) {
+//     console.log(`${i}: ${element} внутри массива ${arr}`);
+// });
