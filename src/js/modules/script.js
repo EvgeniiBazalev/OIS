@@ -13,11 +13,17 @@ let secondArr = [2, 4, 6, 8, 10, 12];
 
 
 
+
+
 console.log(arr.sort(compareNum));
 
 function compareNum (a, b) {
     return a-b;
 }
+
+
+
+
 
 
 
