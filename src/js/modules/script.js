@@ -20,12 +20,9 @@ console.log(arr.sort(compareNum));
 function compareNum (a, b) {
     return a-b;
 }
-
-
-
-
-
-
+for(let i=0; i<10; i++) {
+   console.log(i);
+  }
 
 // arr[20] = 25;
 
