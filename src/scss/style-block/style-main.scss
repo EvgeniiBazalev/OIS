@@ -344,3 +344,82 @@ display: inline;
 
 /* !main finish =*/
 
+
+/* !news start =*/
+
+.newsConteiner {
+    margin-top: $margin-top2;
+    width: 100%;
+    // display: flex;
+    //flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: $main-color-1;
+
+}
+
+.newsHeader{
+
+    font-family: $Font1;
+    font-weight: 700;
+    font-size: $font-size2;
+    color: $main-color-5;
+    text-indent: 3em;
+
+}
+
+.newsText {
+    margin: $margin2;
+    font-size: $font-size1-5;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 3em;
+}
+
+.newsText p:not(:first-child)  {
+    margin-top: $margin-top1;    
+}
+
+.ulText{
+    text-indent: 3em;
+    list-style-position: inside;
+}
+
+.newsNote__sources {
+
+    margin-top: $margin-top2;  
+
+    justify-self: start;
+
+    font-size: $font-size1-5;
+    font-family: $Font1;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+    text-align-last: left;
+    text-indent: 1em;
+        
+    background-color: $main-color-1;
+    
+    height: 100%;
+
+    display: flex;
+
+    
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.dateOfNews{
+    margin-top: $margin-top1;  
+
+    font-size: $font-size1-5;
+    font-family: $Font1;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    
+    text-indent: 1em;
+}

@@ -29,12 +29,11 @@
 
 }
 
-
 .img__inTextType1 p {
 
     margin: $margin2;
-    text-align: justify;
-    text-align-last: left;
+    
+   
 
     font-size: $font-size1;
     font-family: $Font4;
@@ -48,6 +47,33 @@
 
     color: $main-color-2;
 }
+
+
+.img__inTextType2 {
+    width: 400px;
+    height: 400px;
+
+    border-radius: $border-radius1;
+
+    float: right;
+
+    margin: $margin2;
+    margin-bottom: 0;
+    margin-right: 0;
+
+
+
+    background-image: url("../../images/Y01News/TradeMark.png");
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+
+}
+
+
+
 
 
 .img__typeUndertext1 {
