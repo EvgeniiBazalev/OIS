@@ -355,6 +355,8 @@ display: inline;
     justify-content: space-evenly;
     background-color: $main-color-1;
 
+    padding-right: $padding-right1;
+
 }
 
 .newsHeader{
@@ -365,6 +367,8 @@ display: inline;
     color: $main-color-5;
     text-indent: 3em;
     margin-top: $margin-top3;
+
+    margin-top: $margin-top2;
 
 }
 
@@ -391,7 +395,11 @@ display: inline;
 .newsNote__sources {
 
     margin-top: $margin-top2;
+<<<<<<< HEAD
     margin-bottom: $margin-bottom2;
+=======
+    margin-bottom: $margin-bottom2;  
+>>>>>>> 69948449622c665e9d59be712fb30fdd9c3c2d4c
 
     justify-self: start;
 
