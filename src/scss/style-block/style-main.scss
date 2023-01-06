@@ -361,9 +361,10 @@ display: inline;
 
     font-family: $Font1;
     font-weight: 700;
-    font-size: $font-size2;
+    font-size: $font-size2-5;
     color: $main-color-5;
     text-indent: 3em;
+    margin-top: $margin-top3;
 
 }
 
@@ -389,7 +390,8 @@ display: inline;
 
 .newsNote__sources {
 
-    margin-top: $margin-top2;  
+    margin-top: $margin-top2;
+    margin-bottom: $margin-bottom2;
 
     justify-self: start;
 
